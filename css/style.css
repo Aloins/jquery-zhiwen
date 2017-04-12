@@ -1,0 +1,285 @@
+body {
+	margin:40px 0 0 0;
+	padding:0;
+	font-size:12px;
+	font-family:宋体;
+	background:#fff;
+}
+dl, dt, dd{
+	margin: 0;
+	padding: 0;
+}
+/*更改jQuery UI主题的对话框header的背景*/
+.ui-widget-header {
+	background:url(../img/ui_header_bg.png);
+}
+/*按钮正常状态的背景*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background:url(../img/ui_header_bg.png);
+}
+/*按钮点击状态的背景*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background:url(../img/ui_white.png);
+}
+/*工具提示的文本颜色*/
+.ui-tooltip {
+	color:#666;
+}
+/*邮箱自动补全的悬停背景色*/
+.ui-menu-item a.ui-state-focus {
+	background:url(../img/ui_header_bg.png);
+}
+.ui-menu-item a {
+	color:#666;
+}
+/*日历UI的今天单元格样式*/
+.ui-datepicker-today .ui-state-highlight {
+	border:1px solid #eee;
+	color:#f60;
+}
+/*日历UI的选定单元格样式*/
+.ui-datepicker-current-day .ui-state-active {
+	border:1px solid #eee;
+	color:#06f;
+}
+
+
+/*网页置顶的标头部分*/
+#header {
+	width:100%;
+	height:40px;
+	background:url(../img/header_bg.png);
+	position:absolute;
+	top:0;
+}
+#header .headerMain {
+	width:800px;
+	height:40px;
+	margin:0 auto;
+}
+#header .headerMain h1 {
+	font-size:20px;
+	margin:0;
+	padding:0;
+	color:#666;
+	height:40px;
+	line-height:40px;
+	padding:0 10px;
+	float:left;
+}
+#header .headerSearch {
+	padding:6px 0 0 0;
+	float:left;
+}
+#header .headerSearch .search {
+	width:300px;
+	height:24px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	background:#fff;
+	color:#666;
+	font-size:14px;
+	text-indent:5px;
+}
+#header .headerButton {
+	padding:5px;
+	float:left;
+}
+#header .headerMember {
+	float:right;
+	height:40px;
+	line-height:40px;
+	color:#555;
+	font-size:14px;
+}
+#header .headerMember a {
+	text-decoration:none;
+	color:#555;
+	font-size:14px;
+}
+
+/*注册、登录、提问对话框*/
+#reg, #login, #question{
+	padding: 15px 0 0 15px;
+}
+#reg ol, #login ol, #question ol{
+	margin: 0;
+  padding: 0 0 0 20px;
+  color: maroon;
+}
+#reg ol li, #login ol li, #question ol li{
+  height: 20px;
+}
+#reg p, #login p, #question p{
+	margin: 10px 0;
+	padding: 0;
+}
+#reg p label, #login p label, #question p label{
+	font-size: 14px;
+	color: #666;
+}
+#reg .text, #login .text, #question .text{
+	width: 200px;
+	height: 25px;
+	line-height: 25px;
+	color: #666;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	text-indent: 5px;
+	font-size: 13px;
+}
+#reg .star, #login .star, #question .star{
+	color: maroon;
+	font-size: 14px;
+}
+#reg .succ, #login .succ, #question .succ{
+  display: inline-block;
+  width: 20px;
+  background: url(../img/reg_succ.png) no-repeat;
+}
+#expires{
+  position: relative;
+  top: -2px;
+  margin: 0 2px 0 155px;
+}
+/*数据交互中提示对话框*/
+#loading {
+  background: url(../img/loading.gif) no-repeat 20px center;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: bold;
+  text-indent: 40px;
+  color: #666;
+}
+
+#error {
+  background: url(../img/error.png) no-repeat 20px center;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: bold;
+  text-indent: 40px;
+  color: #666;
+}
+
+/*网页主体内容部分*/
+#main{
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 0 0 0;
+}
+#main .mainLeft{
+  width: 580px;
+  float: left;
+}
+#main .mainRight{
+  width: 200px;
+  float: right;
+}
+/*选项卡*/
+#tabs{
+  border: none;
+}
+#ui-tabs-1, #ui-tabs-2, #ui-tabs-3{
+  border: 1px solid #aaa;
+  border-top: none;
+  position: relative;
+  top: -3px;
+}
+
+/*折叠菜单*/
+#accordion{
+}
+
+/*显示问题内容部分*/
+.content h4 {
+	color:#666;
+	font-weight:normal;
+}
+.content h3 {
+	color:#369;
+}
+.content .editor {
+	color:#333;
+	line-height:180%;
+}
+.content .bottom {
+	padding:5px 0 0 0;
+}
+.content hr {
+	color:#ccc;
+}
+.content .comment{
+	color:#369;
+	cursor:pointer;
+}
+.content .commentList{
+	display: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px 10px;
+}
+.content .commentList dl{
+	padding: 3px 0 5px 0;
+}
+.content .commentList dl.commentContent{
+	border-bottom: 1px solid #ccc;
+}
+.content .commentList dl dt{
+	padding: 5px 0 0 0;
+	color:#369;
+}
+.content .commentList dl dd{
+	color:#333;
+	line-height: 180%;
+}
+.content .commentList dl dd.date{
+	color: #666;
+}
+.content .addComment{
+	text-align: right;
+}
+.content .addComment textarea{
+	width: 98%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: #fff;
+	padding: 5px;
+	font-size: 12px;
+	color: #666;
+	resize: none;
+	margin: 0 0 5px 0;
+}
+.content .addComment input{
+	cursor: pointer;
+}
+.content .commentLoad dd{
+	background: url(../img/comment_load.gif) no-repeat 75px 45%;
+}
+.content .loadMore{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0 0 0;
+}
+.content .loadMore img{
+	padding: 5px 0 0 0;
+}
+.content .up {
+	float:right;
+	color:#369;
+	cursor:pointer;
+}
+.content .down {
+	font-weight: normal;
+	font-style: normal;
+	color:#369;
+	cursor:pointer;
+}
+
+#footer{
+	clear: both;
+	padding: 10px;
+	text-align: center;
+	color: #666;
+}
